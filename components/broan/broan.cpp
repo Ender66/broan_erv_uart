@@ -817,9 +817,11 @@ std::string BroanComponent::activeModeToString( int code )
 	{
 		case 0: return "Idle";
 		case 1: return "Running";
-		case 2: return "Max";
+		case 2: return "Maximum";
 		case 3: return "Turbo";
 		case 4: return "Manual";
+		case 6: return "Recirculating";
+		case 7: return "Recirculating";
 	}
 	
 
