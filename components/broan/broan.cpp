@@ -820,8 +820,8 @@ std::string BroanComponent::activeModeToString( int code )
 		case 2: return "maximum";
 		case 3: return "turbo";
 		case 4: return "manual";
-		case 6: return "recirculating";
-		case 7: return "recirculating";
+		case 6: return "recirculate";
+		case 7: return "recirculate";
 	}
 	
 
